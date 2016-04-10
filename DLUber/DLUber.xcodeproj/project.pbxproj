@@ -25,6 +25,7 @@
 		AA55E80C1CBA84AF002105DE /* DLLaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E80B1CBA84AF002105DE /* DLLaunchController.swift */; };
 		AA55E80F1CBA84E6002105DE /* DLRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E80E1CBA84E6002105DE /* DLRegisterController.swift */; };
 		AA55E8111CBA852B002105DE /* DLBindPayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E8101CBA852B002105DE /* DLBindPayController.swift */; };
+		AA55E81B1CBA8997002105DE /* DLDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E81A1CBA8997002105DE /* DLDefine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		AA55E80B1CBA84AF002105DE /* DLLaunchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLLaunchController.swift; sourceTree = "<group>"; };
 		AA55E80E1CBA84E6002105DE /* DLRegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLRegisterController.swift; sourceTree = "<group>"; };
 		AA55E8101CBA852B002105DE /* DLBindPayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLBindPayController.swift; sourceTree = "<group>"; };
+		AA55E81A1CBA8997002105DE /* DLDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLDefine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				AA55E7CB1CBA7E67002105DE /* Assets.xcassets */,
 				AA55E7CD1CBA7E67002105DE /* LaunchScreen.storyboard */,
 				AA55E7D01CBA7E67002105DE /* Info.plist */,
+				AA55E81A1CBA8997002105DE /* DLDefine.swift */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				AA55E8041CBA83C6002105DE /* DLRegister.swift in Sources */,
 				AA55E7C51CBA7E67002105DE /* AppDelegate.swift in Sources */,
 				AA55E8081CBA842C002105DE /* DLBaseController.swift in Sources */,
+				AA55E81B1CBA8997002105DE /* DLDefine.swift in Sources */,
 				AA55E8021CBA83A7002105DE /* DLLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +510,7 @@
 				INFOPLIST_FILE = DLUber/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -519,6 +524,7 @@
 				INFOPLIST_FILE = DLUber/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -570,6 +576,156 @@
 			};
 			name = Release;
 		};
+		AA55E8121CBA888A002105DE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		AA55E8131CBA888A002105DE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DLUber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = AppStore;
+		};
+		AA55E8141CBA888A002105DE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DLUberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLUber.app/DLUber";
+			};
+			name = AppStore;
+		};
+		AA55E8151CBA888A002105DE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DLUberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DLUber;
+			};
+			name = AppStore;
+		};
+		AA55E8161CBA889E002105DE /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		AA55E8171CBA889E002105DE /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DLUber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = AdHoc;
+		};
+		AA55E8181CBA889E002105DE /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DLUberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLUber.app/DLUber";
+			};
+			name = AdHoc;
+		};
+		AA55E8191CBA889E002105DE /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DLUberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DLUber;
+			};
+			name = AdHoc;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,6 +734,8 @@
 			buildConfigurations = (
 				AA55E7E71CBA7E67002105DE /* Debug */,
 				AA55E7E81CBA7E67002105DE /* Release */,
+				AA55E8161CBA889E002105DE /* AdHoc */,
+				AA55E8121CBA888A002105DE /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -587,6 +745,8 @@
 			buildConfigurations = (
 				AA55E7EA1CBA7E67002105DE /* Debug */,
 				AA55E7EB1CBA7E67002105DE /* Release */,
+				AA55E8171CBA889E002105DE /* AdHoc */,
+				AA55E8131CBA888A002105DE /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
@@ -595,6 +755,8 @@
 			buildConfigurations = (
 				AA55E7ED1CBA7E67002105DE /* Debug */,
 				AA55E7EE1CBA7E67002105DE /* Release */,
+				AA55E8181CBA889E002105DE /* AdHoc */,
+				AA55E8141CBA888A002105DE /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
@@ -603,6 +765,8 @@
 			buildConfigurations = (
 				AA55E7F01CBA7E67002105DE /* Debug */,
 				AA55E7F11CBA7E67002105DE /* Release */,
+				AA55E8191CBA889E002105DE /* AdHoc */,
+				AA55E8151CBA888A002105DE /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
