@@ -14,6 +14,17 @@
 		AA55E7CF1CBA7E67002105DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA55E7CD1CBA7E67002105DE /* LaunchScreen.storyboard */; };
 		AA55E7DA1CBA7E67002105DE /* DLUberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E7D91CBA7E67002105DE /* DLUberTests.swift */; };
 		AA55E7E51CBA7E67002105DE /* DLUberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E7E41CBA7E67002105DE /* DLUberUITests.swift */; };
+		AA55E7FB1CBA82CE002105DE /* BaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E7FA1CBA82CE002105DE /* BaseInfo.swift */; };
+		AA55E7FD1CBA8303002105DE /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E7FC1CBA8303002105DE /* UserInfo.swift */; };
+		AA55E8001CBA837C002105DE /* DLOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E7FF1CBA837C002105DE /* DLOperation.swift */; };
+		AA55E8021CBA83A7002105DE /* DLLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E8011CBA83A7002105DE /* DLLogin.swift */; };
+		AA55E8041CBA83C6002105DE /* DLRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E8031CBA83C6002105DE /* DLRegister.swift */; };
+		AA55E8061CBA83E9002105DE /* DLGetCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E8051CBA83E9002105DE /* DLGetCars.swift */; };
+		AA55E8081CBA842C002105DE /* DLBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E8071CBA842C002105DE /* DLBaseController.swift */; };
+		AA55E80A1CBA8479002105DE /* DLLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E8091CBA8479002105DE /* DLLoginController.swift */; };
+		AA55E80C1CBA84AF002105DE /* DLLaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E80B1CBA84AF002105DE /* DLLaunchController.swift */; };
+		AA55E80F1CBA84E6002105DE /* DLRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E80E1CBA84E6002105DE /* DLRegisterController.swift */; };
+		AA55E8111CBA852B002105DE /* DLBindPayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E8101CBA852B002105DE /* DLBindPayController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +46,29 @@
 
 /* Begin PBXFileReference section */
 		AA55E7C11CBA7E67002105DE /* DLUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA55E7C41CBA7E67002105DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA55E7C61CBA7E67002105DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA55E7C41CBA7E67002105DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		AA55E7C61CBA7E67002105DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		AA55E7C91CBA7E67002105DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AA55E7CB1CBA7E67002105DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA55E7CB1CBA7E67002105DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		AA55E7CE1CBA7E67002105DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AA55E7D01CBA7E67002105DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA55E7D01CBA7E67002105DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		AA55E7D51CBA7E67002105DE /* DLUberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLUberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA55E7D91CBA7E67002105DE /* DLUberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLUberTests.swift; sourceTree = "<group>"; };
 		AA55E7DB1CBA7E67002105DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA55E7E01CBA7E67002105DE /* DLUberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLUberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA55E7E41CBA7E67002105DE /* DLUberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLUberUITests.swift; sourceTree = "<group>"; };
 		AA55E7E61CBA7E67002105DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA55E7FA1CBA82CE002105DE /* BaseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInfo.swift; sourceTree = "<group>"; };
+		AA55E7FC1CBA8303002105DE /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		AA55E7FF1CBA837C002105DE /* DLOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLOperation.swift; sourceTree = "<group>"; };
+		AA55E8011CBA83A7002105DE /* DLLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLLogin.swift; sourceTree = "<group>"; };
+		AA55E8031CBA83C6002105DE /* DLRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLRegister.swift; sourceTree = "<group>"; };
+		AA55E8051CBA83E9002105DE /* DLGetCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLGetCars.swift; sourceTree = "<group>"; };
+		AA55E8071CBA842C002105DE /* DLBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLBaseController.swift; sourceTree = "<group>"; };
+		AA55E8091CBA8479002105DE /* DLLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLLoginController.swift; sourceTree = "<group>"; };
+		AA55E80B1CBA84AF002105DE /* DLLaunchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLLaunchController.swift; sourceTree = "<group>"; };
+		AA55E80E1CBA84E6002105DE /* DLRegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLRegisterController.swift; sourceTree = "<group>"; };
+		AA55E8101CBA852B002105DE /* DLBindPayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLBindPayController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,12 @@
 		AA55E7C31CBA7E67002105DE /* DLUber */ = {
 			isa = PBXGroup;
 			children = (
-				AA55E7C41CBA7E67002105DE /* AppDelegate.swift */,
-				AA55E7C61CBA7E67002105DE /* ViewController.swift */,
-				AA55E7C81CBA7E67002105DE /* Main.storyboard */,
-				AA55E7CB1CBA7E67002105DE /* Assets.xcassets */,
-				AA55E7CD1CBA7E67002105DE /* LaunchScreen.storyboard */,
-				AA55E7D01CBA7E67002105DE /* Info.plist */,
+				AA55E7F41CBA81F0002105DE /* Main */,
+				AA55E7F71CBA8212002105DE /* Define */,
+				AA55E7F21CBA81F0002105DE /* Controller */,
+				AA55E7F31CBA81F0002105DE /* Lib */,
+				AA55E7F51CBA81F0002105DE /* Model */,
+				AA55E7F61CBA81F0002105DE /* View */,
 			);
 			path = DLUber;
 			sourceTree = "<group>";
@@ -123,6 +145,73 @@
 				AA55E7E61CBA7E67002105DE /* Info.plist */,
 			);
 			path = DLUberUITests;
+			sourceTree = "<group>";
+		};
+		AA55E7F21CBA81F0002105DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA55E8071CBA842C002105DE /* DLBaseController.swift */,
+				AA55E8091CBA8479002105DE /* DLLoginController.swift */,
+				AA55E80B1CBA84AF002105DE /* DLLaunchController.swift */,
+				AA55E80E1CBA84E6002105DE /* DLRegisterController.swift */,
+				AA55E8101CBA852B002105DE /* DLBindPayController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA55E7F31CBA81F0002105DE /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		AA55E7F41CBA81F0002105DE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA55E7FE1CBA835D002105DE /* Operation */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA55E7F51CBA81F0002105DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA55E7FA1CBA82CE002105DE /* BaseInfo.swift */,
+				AA55E7FC1CBA8303002105DE /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA55E7F61CBA81F0002105DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA55E7F71CBA8212002105DE /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				AA55E7C41CBA7E67002105DE /* AppDelegate.swift */,
+				AA55E7C61CBA7E67002105DE /* ViewController.swift */,
+				AA55E7C81CBA7E67002105DE /* Main.storyboard */,
+				AA55E7CB1CBA7E67002105DE /* Assets.xcassets */,
+				AA55E7CD1CBA7E67002105DE /* LaunchScreen.storyboard */,
+				AA55E7D01CBA7E67002105DE /* Info.plist */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		AA55E7FE1CBA835D002105DE /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				AA55E7FF1CBA837C002105DE /* DLOperation.swift */,
+				AA55E8011CBA83A7002105DE /* DLLogin.swift */,
+				AA55E8031CBA83C6002105DE /* DLRegister.swift */,
+				AA55E8051CBA83E9002105DE /* DLGetCars.swift */,
+			);
+			path = Operation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +346,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA55E7FD1CBA8303002105DE /* UserInfo.swift in Sources */,
+				AA55E80C1CBA84AF002105DE /* DLLaunchController.swift in Sources */,
+				AA55E80A1CBA8479002105DE /* DLLoginController.swift in Sources */,
+				AA55E8111CBA852B002105DE /* DLBindPayController.swift in Sources */,
 				AA55E7C71CBA7E67002105DE /* ViewController.swift in Sources */,
+				AA55E7FB1CBA82CE002105DE /* BaseInfo.swift in Sources */,
+				AA55E8061CBA83E9002105DE /* DLGetCars.swift in Sources */,
+				AA55E80F1CBA84E6002105DE /* DLRegisterController.swift in Sources */,
+				AA55E8001CBA837C002105DE /* DLOperation.swift in Sources */,
+				AA55E8041CBA83C6002105DE /* DLRegister.swift in Sources */,
 				AA55E7C51CBA7E67002105DE /* AppDelegate.swift in Sources */,
+				AA55E8081CBA842C002105DE /* DLBaseController.swift in Sources */,
+				AA55E8021CBA83A7002105DE /* DLLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +400,7 @@
 				AA55E7C91CBA7E67002105DE /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		AA55E7CD1CBA7E67002105DE /* LaunchScreen.storyboard */ = {
@@ -308,6 +409,7 @@
 				AA55E7CE1CBA7E67002105DE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

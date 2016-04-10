@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DLLaunchController.swift
 //  DLUber
 //
 //  Created by FT_David on 16/4/10.
@@ -8,18 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DLLaunchController: DLBaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
-    }
+           }
+    
 
 
 }
-
