@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DLLaunchController" customModule="DLUber" customModuleProvider="target">
+            <connections>
+                <outlet property="backImageView" destination="56l-DW-xRz" id="MF5-qT-g7I"/>
+                <outlet property="videoBackView" destination="kzw-7T-lHT" id="fQw-l3-tiQ"/>
+                <outlet property="view" destination="iN0-l3-epB" id="nB0-Hu-ygz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="56l-DW-xRz">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzw-7T-lHT">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1F-hT-lzv">
+                            <rect key="frame" x="26" y="606" width="150" height="40"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="9ct-RC-x1t"/>
+                            </constraints>
+                            <state key="normal" title="登录">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="login:" destination="-1" eventType="touchUpInside" id="4lq-U5-piS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sI5-xy-n4M">
+                            <rect key="frame" x="196" y="606" width="149" height="40"/>
+                            <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="p7Y-WY-c47"/>
+                            </constraints>
+                            <state key="normal" title="注册">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="sI5-xy-n4M" secondAttribute="trailing" constant="30" id="9Ux-Kh-nl4"/>
+                        <constraint firstItem="sI5-xy-n4M" firstAttribute="width" secondItem="A1F-hT-lzv" secondAttribute="width" id="BWY-44-fA5"/>
+                        <constraint firstAttribute="bottom" secondItem="sI5-xy-n4M" secondAttribute="bottom" constant="21" id="GgY-BD-oF5"/>
+                        <constraint firstItem="sI5-xy-n4M" firstAttribute="leading" secondItem="A1F-hT-lzv" secondAttribute="trailing" constant="20" id="HaX-nI-JuD"/>
+                        <constraint firstItem="A1F-hT-lzv" firstAttribute="leading" secondItem="kzw-7T-lHT" secondAttribute="leading" constant="26" id="NpB-3b-Gfw"/>
+                        <constraint firstAttribute="bottom" secondItem="A1F-hT-lzv" secondAttribute="bottom" constant="21" id="aK7-G1-WJn"/>
+                        <constraint firstItem="sI5-xy-n4M" firstAttribute="height" secondItem="A1F-hT-lzv" secondAttribute="height" id="rDX-mc-tVZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="kzw-7T-lHT" secondAttribute="trailing" id="7AY-Oy-Bm6"/>
+                <constraint firstAttribute="bottom" secondItem="kzw-7T-lHT" secondAttribute="bottom" id="Nvm-j7-DnB"/>
+                <constraint firstItem="kzw-7T-lHT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="UN5-Cf-cLP"/>
+                <constraint firstItem="kzw-7T-lHT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="h0Q-lS-RXc"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="747.5" y="374.5"/>
+        </view>
+        <viewController id="ifX-Ie-YCu">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="VVp-8g-B9L"/>
+                <viewControllerLayoutGuide type="bottom" id="UAT-vb-Xke"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="jrD-YQ-vup">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </view>
+        </viewController>
+    </objects>
+</document>

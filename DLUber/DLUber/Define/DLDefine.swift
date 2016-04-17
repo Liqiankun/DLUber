@@ -42,6 +42,7 @@ func CurrentSystem() -> String {
 
 
 func moreThanIOS8() ->Bool{
+    
     let versionNumber = UIDevice.currentDevice().systemName as NSString
     let number = versionNumber.floatValue
     if number > 8 {

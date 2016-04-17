@@ -9,11 +9,10 @@
 import UIKit
 
 class DLBaseController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
+ 
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +20,8 @@ class DLBaseController: UIViewController {
         
     }
     
-
+    func showSVProgressHUD() {
+       SVProgressHUD.show()
+    }
   
 }

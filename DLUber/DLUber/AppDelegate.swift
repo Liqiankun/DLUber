@@ -16,8 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
        
-         CurrentSystem()
+       ShowLaunchController()
+        
         return true
+    }
+    
+    func ShowLaunchController()  {
+       
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        let launchController = DLLaunchController()
+        
+        self.window?.rootViewController = launchController;
+        self.window?.makeKeyAndVisible()
+        
     }
 
     func applicationWillResignActive(application: UIApplication) {

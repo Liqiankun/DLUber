@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA5381191CC26A6800E2DA0B /* DLURLDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5381181CC26A6800E2DA0B /* DLURLDefine.swift */; };
+		AA53811B1CC26DCA00E2DA0B /* DLLaunchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA53811A1CC26DCA00E2DA0B /* DLLaunchController.xib */; };
+		AA5381231CC32B1600E2DA0B /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA5381221CC32B1600E2DA0B /* welcome_video.mp4 */; };
+		AA5381251CC3570F00E2DA0B /* DLLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5381241CC3570F00E2DA0B /* DLLocation.swift */; };
 		AA55E7C51CBA7E67002105DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E7C41CBA7E67002105DE /* AppDelegate.swift */; };
 		AA55E7C71CBA7E67002105DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E7C61CBA7E67002105DE /* ViewController.swift */; };
 		AA55E7CA1CBA7E67002105DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA55E7C81CBA7E67002105DE /* Main.storyboard */; };
@@ -26,6 +30,11 @@
 		AA55E80F1CBA84E6002105DE /* DLRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E80E1CBA84E6002105DE /* DLRegisterController.swift */; };
 		AA55E8111CBA852B002105DE /* DLBindPayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E8101CBA852B002105DE /* DLBindPayController.swift */; };
 		AA55E81B1CBA8997002105DE /* DLDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA55E81A1CBA8997002105DE /* DLDefine.swift */; };
+		AAF8A8ED1CC3744D0046643D /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A8E31CC3744D0046643D /* SVIndefiniteAnimatedView.m */; };
+		AAF8A8EE1CC3744D0046643D /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A8E51CC3744D0046643D /* SVProgressAnimatedView.m */; };
+		AAF8A8EF1CC3744D0046643D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAF8A8E81CC3744D0046643D /* SVProgressHUD.bundle */; };
+		AAF8A8F01CC3744D0046643D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A8EA1CC3744D0046643D /* SVProgressHUD.m */; };
+		AAF8A8F11CC3744D0046643D /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A8EC1CC3744D0046643D /* SVRadialGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA5381181CC26A6800E2DA0B /* DLURLDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLURLDefine.swift; sourceTree = "<group>"; };
+		AA53811A1CC26DCA00E2DA0B /* DLLaunchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLLaunchController.xib; sourceTree = "<group>"; };
+		AA5381221CC32B1600E2DA0B /* welcome_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcome_video.mp4; sourceTree = "<group>"; };
+		AA5381241CC3570F00E2DA0B /* DLLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLLocation.swift; sourceTree = "<group>"; };
 		AA55E7C11CBA7E67002105DE /* DLUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA55E7C41CBA7E67002105DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		AA55E7C61CBA7E67002105DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +84,17 @@
 		AA55E80E1CBA84E6002105DE /* DLRegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLRegisterController.swift; sourceTree = "<group>"; };
 		AA55E8101CBA852B002105DE /* DLBindPayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLBindPayController.swift; sourceTree = "<group>"; };
 		AA55E81A1CBA8997002105DE /* DLDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLDefine.swift; sourceTree = "<group>"; };
+		AAF8A8D11CC374110046643D /* DLUber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DLUber-Bridging-Header.h"; path = "../Lib/DLUber-Bridging-Header.h"; sourceTree = "<group>"; };
+		AAF8A8E21CC3744D0046643D /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		AAF8A8E31CC3744D0046643D /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		AAF8A8E41CC3744D0046643D /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		AAF8A8E51CC3744D0046643D /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		AAF8A8E71CC3744D0046643D /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		AAF8A8E81CC3744D0046643D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		AAF8A8E91CC3744D0046643D /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		AAF8A8EA1CC3744D0046643D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		AAF8A8EB1CC3744D0046643D /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		AAF8A8EC1CC3744D0046643D /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,7 @@
 		AA55E7B81CBA7E67002105DE = {
 			isa = PBXGroup;
 			children = (
+				AA5381221CC32B1600E2DA0B /* welcome_video.mp4 */,
 				AA55E7C31CBA7E67002105DE /* DLUber */,
 				AA55E7D81CBA7E67002105DE /* DLUberTests */,
 				AA55E7E31CBA7E67002105DE /* DLUberUITests */,
@@ -164,6 +189,7 @@
 		AA55E7F31CBA81F0002105DE /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				AAF8A8E11CC3744D0046643D /* SVProgress */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -171,6 +197,8 @@
 		AA55E7F41CBA81F0002105DE /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				AAF8A8D11CC374110046643D /* DLUber-Bridging-Header.h */,
+				AA5381241CC3570F00E2DA0B /* DLLocation.swift */,
 				AA55E7FE1CBA835D002105DE /* Operation */,
 			);
 			path = Main;
@@ -188,6 +216,7 @@
 		AA55E7F61CBA81F0002105DE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AA53811A1CC26DCA00E2DA0B /* DLLaunchController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +231,7 @@
 				AA55E7CD1CBA7E67002105DE /* LaunchScreen.storyboard */,
 				AA55E7D01CBA7E67002105DE /* Info.plist */,
 				AA55E81A1CBA8997002105DE /* DLDefine.swift */,
+				AA5381181CC26A6800E2DA0B /* DLURLDefine.swift */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -215,6 +245,31 @@
 				AA55E8051CBA83E9002105DE /* DLGetCars.swift */,
 			);
 			path = Operation;
+			sourceTree = "<group>";
+		};
+		AAF8A8E11CC3744D0046643D /* SVProgress */ = {
+			isa = PBXGroup;
+			children = (
+				AAF8A8E21CC3744D0046643D /* SVIndefiniteAnimatedView.h */,
+				AAF8A8E31CC3744D0046643D /* SVIndefiniteAnimatedView.m */,
+				AAF8A8E41CC3744D0046643D /* SVProgressAnimatedView.h */,
+				AAF8A8E51CC3744D0046643D /* SVProgressAnimatedView.m */,
+				AAF8A8E61CC3744D0046643D /* SVProgressHUD */,
+				AAF8A8E71CC3744D0046643D /* SVProgressHUD-Prefix.pch */,
+				AAF8A8E81CC3744D0046643D /* SVProgressHUD.bundle */,
+				AAF8A8E91CC3744D0046643D /* SVProgressHUD.h */,
+				AAF8A8EA1CC3744D0046643D /* SVProgressHUD.m */,
+				AAF8A8EB1CC3744D0046643D /* SVRadialGradientLayer.h */,
+				AAF8A8EC1CC3744D0046643D /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgress;
+			sourceTree = "<group>";
+		};
+		AAF8A8E61CC3744D0046643D /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,8 +377,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5381231CC32B1600E2DA0B /* welcome_video.mp4 in Resources */,
+				AAF8A8EF1CC3744D0046643D /* SVProgressHUD.bundle in Resources */,
 				AA55E7CF1CBA7E67002105DE /* LaunchScreen.storyboard in Resources */,
 				AA55E7CC1CBA7E67002105DE /* Assets.xcassets in Resources */,
+				AA53811B1CC26DCA00E2DA0B /* DLLaunchController.xib in Resources */,
 				AA55E7CA1CBA7E67002105DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,9 +408,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA55E7FD1CBA8303002105DE /* UserInfo.swift in Sources */,
+				AA5381191CC26A6800E2DA0B /* DLURLDefine.swift in Sources */,
 				AA55E80C1CBA84AF002105DE /* DLLaunchController.swift in Sources */,
 				AA55E80A1CBA8479002105DE /* DLLoginController.swift in Sources */,
+				AA5381251CC3570F00E2DA0B /* DLLocation.swift in Sources */,
+				AAF8A8EE1CC3744D0046643D /* SVProgressAnimatedView.m in Sources */,
 				AA55E8111CBA852B002105DE /* DLBindPayController.swift in Sources */,
+				AAF8A8F01CC3744D0046643D /* SVProgressHUD.m in Sources */,
+				AAF8A8ED1CC3744D0046643D /* SVIndefiniteAnimatedView.m in Sources */,
 				AA55E7C71CBA7E67002105DE /* ViewController.swift in Sources */,
 				AA55E7FB1CBA82CE002105DE /* BaseInfo.swift in Sources */,
 				AA55E8061CBA83E9002105DE /* DLGetCars.swift in Sources */,
@@ -363,6 +426,7 @@
 				AA55E8081CBA842C002105DE /* DLBaseController.swift in Sources */,
 				AA55E81B1CBA8997002105DE /* DLDefine.swift in Sources */,
 				AA55E8021CBA83A7002105DE /* DLLogin.swift in Sources */,
+				AAF8A8F11CC3744D0046643D /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DLUber/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -513,6 +578,8 @@
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DLUber/Lib/DLUber-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -520,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DLUber/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -527,6 +595,7 @@
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DLUber/Lib/DLUber-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -618,13 +687,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DLUber/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				OTHER_SWIFT_FLAGS = "-D APPSTORE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DLUber/Lib/DLUber-Bridging-Header.h";
 			};
 			name = AppStore;
 		};
@@ -693,6 +764,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DLUber/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -700,6 +772,7 @@
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLUber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DLUber/Lib/DLUber-Bridging-Header.h";
 			};
 			name = AdHoc;
 		};
@@ -749,6 +822,7 @@
 				AA55E8131CBA888A002105DE /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA55E7EC1CBA7E67002105DE /* Build configuration list for PBXNativeTarget "DLUberTests" */ = {
 			isa = XCConfigurationList;
@@ -759,6 +833,7 @@
 				AA55E8141CBA888A002105DE /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA55E7EF1CBA7E67002105DE /* Build configuration list for PBXNativeTarget "DLUberUITests" */ = {
 			isa = XCConfigurationList;
@@ -769,6 +844,7 @@
 				AA55E8151CBA888A002105DE /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
