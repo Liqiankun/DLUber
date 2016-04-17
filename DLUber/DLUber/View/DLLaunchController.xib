@@ -24,21 +24,8 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzw-7T-lHT">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1F-hT-lzv">
-                            <rect key="frame" x="26" y="606" width="150" height="40"/>
-                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="40" id="9ct-RC-x1t"/>
-                            </constraints>
-                            <state key="normal" title="登录">
-                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </state>
-                            <connections>
-                                <action selector="login:" destination="-1" eventType="touchUpInside" id="4lq-U5-piS"/>
-                            </connections>
-                        </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sI5-xy-n4M">
-                            <rect key="frame" x="196" y="606" width="149" height="40"/>
+                            <rect key="frame" x="196" y="587" width="149" height="40"/>
                             <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="p7Y-WY-c47"/>
@@ -46,16 +33,32 @@
                             <state key="normal" title="注册">
                                 <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="register:" destination="-1" eventType="touchUpInside" id="GQT-6v-ynu"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1F-hT-lzv">
+                            <rect key="frame" x="26" y="587" width="150" height="40"/>
+                            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="9ct-RC-x1t"/>
+                            </constraints>
+                            <state key="normal" title="登录">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="login:" destination="-1" eventType="touchUpInside" id="duo-Ls-jZx"/>
+                            </connections>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="sI5-xy-n4M" secondAttribute="trailing" constant="30" id="9Ux-Kh-nl4"/>
                         <constraint firstItem="sI5-xy-n4M" firstAttribute="width" secondItem="A1F-hT-lzv" secondAttribute="width" id="BWY-44-fA5"/>
-                        <constraint firstAttribute="bottom" secondItem="sI5-xy-n4M" secondAttribute="bottom" constant="21" id="GgY-BD-oF5"/>
+                        <constraint firstAttribute="bottom" secondItem="sI5-xy-n4M" secondAttribute="bottom" constant="40" id="GgY-BD-oF5"/>
                         <constraint firstItem="sI5-xy-n4M" firstAttribute="leading" secondItem="A1F-hT-lzv" secondAttribute="trailing" constant="20" id="HaX-nI-JuD"/>
                         <constraint firstItem="A1F-hT-lzv" firstAttribute="leading" secondItem="kzw-7T-lHT" secondAttribute="leading" constant="26" id="NpB-3b-Gfw"/>
-                        <constraint firstAttribute="bottom" secondItem="A1F-hT-lzv" secondAttribute="bottom" constant="21" id="aK7-G1-WJn"/>
+                        <constraint firstAttribute="bottom" secondItem="A1F-hT-lzv" secondAttribute="bottom" constant="40" id="aK7-G1-WJn"/>
                         <constraint firstItem="sI5-xy-n4M" firstAttribute="height" secondItem="A1F-hT-lzv" secondAttribute="height" id="rDX-mc-tVZ"/>
                     </constraints>
                 </view>

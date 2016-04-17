@@ -35,6 +35,9 @@
 		AAF8A8EF1CC3744D0046643D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAF8A8E81CC3744D0046643D /* SVProgressHUD.bundle */; };
 		AAF8A8F01CC3744D0046643D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A8EA1CC3744D0046643D /* SVProgressHUD.m */; };
 		AAF8A8F11CC3744D0046643D /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A8EC1CC3744D0046643D /* SVRadialGradientLayer.m */; };
+		AAF8A8F31CC39FF30046643D /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A8F21CC39FF30046643D /* CreateAccountController.swift */; };
+		AAF8A8F51CC3A0120046643D /* UserInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8A8F41CC3A0120046643D /* UserInfoController.swift */; };
+		AAF8A8F71CC3AB740046643D /* CreateAccountController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF8A8F61CC3AB740046643D /* CreateAccountController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +98,9 @@
 		AAF8A8EA1CC3744D0046643D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		AAF8A8EB1CC3744D0046643D /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		AAF8A8EC1CC3744D0046643D /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		AAF8A8F21CC39FF30046643D /* CreateAccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
+		AAF8A8F41CC3A0120046643D /* UserInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoController.swift; sourceTree = "<group>"; };
+		AAF8A8F61CC3AB740046643D /* CreateAccountController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateAccountController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +188,8 @@
 				AA55E80B1CBA84AF002105DE /* DLLaunchController.swift */,
 				AA55E80E1CBA84E6002105DE /* DLRegisterController.swift */,
 				AA55E8101CBA852B002105DE /* DLBindPayController.swift */,
+				AAF8A8F21CC39FF30046643D /* CreateAccountController.swift */,
+				AAF8A8F41CC3A0120046643D /* UserInfoController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -217,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				AA53811A1CC26DCA00E2DA0B /* DLLaunchController.xib */,
+				AAF8A8F61CC3AB740046643D /* CreateAccountController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -382,6 +391,7 @@
 				AA55E7CF1CBA7E67002105DE /* LaunchScreen.storyboard in Resources */,
 				AA55E7CC1CBA7E67002105DE /* Assets.xcassets in Resources */,
 				AA53811B1CC26DCA00E2DA0B /* DLLaunchController.xib in Resources */,
+				AAF8A8F71CC3AB740046643D /* CreateAccountController.xib in Resources */,
 				AA55E7CA1CBA7E67002105DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,7 +425,9 @@
 				AAF8A8EE1CC3744D0046643D /* SVProgressAnimatedView.m in Sources */,
 				AA55E8111CBA852B002105DE /* DLBindPayController.swift in Sources */,
 				AAF8A8F01CC3744D0046643D /* SVProgressHUD.m in Sources */,
+				AAF8A8F51CC3A0120046643D /* UserInfoController.swift in Sources */,
 				AAF8A8ED1CC3744D0046643D /* SVIndefiniteAnimatedView.m in Sources */,
+				AAF8A8F31CC39FF30046643D /* CreateAccountController.swift in Sources */,
 				AA55E7C71CBA7E67002105DE /* ViewController.swift in Sources */,
 				AA55E7FB1CBA82CE002105DE /* BaseInfo.swift in Sources */,
 				AA55E8061CBA83E9002105DE /* DLGetCars.swift in Sources */,

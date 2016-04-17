@@ -23,6 +23,12 @@ class DLLaunchController: DLBaseController {
     }
     
     
+    @IBAction func register(sender: UIButton) {
+        let createAccount:CreateAccountController!
+        createAccount = CreateAccountController()
+        let navController = UINavigationController.init(rootViewController: createAccount)
+        self.presentViewController(navController, animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         playBackVideo()
